@@ -14,8 +14,8 @@
     />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <title>Vite + TS</title>
-    <script type="module" crossorigin src="/assets/index-COF3B0lO.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BWaqQ2qH.css">
+    <script type="module" crossorigin src="/assets/index-CdAkBTbz.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CAlg8d5k.css">
   </head>
   <body class="font-sans antialiased text-gray-800 bg-white scroll-smooth">
     <!-- Navigation -->
@@ -104,7 +104,7 @@
           </div>
         </div>
       </section>
-      <section id="skills" class="w-full page-about-section py-[80px]">
+      <section id="skills" class="w-full page-radial-gradient py-[80px]">
         <div class="flex justify-center">
           <div
             class="w-[200px] border-4 border-black py-3 px-8 uppercase tracking-[5px] text-center"
@@ -337,25 +337,178 @@
           </div>
         </div>
       </section>
+      <section class="bg-black text-white py-12 px-4">
+        <div class="flex justify-center">
+          <div
+            class="w-[200px] border-4 border-white py-3 px-8 uppercase tracking-[5px] text-center"
+          >
+            Projects
+          </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto py-12">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Project Card -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg">
+              <!-- Main Image: Always visible -->
+              <img
+                src="/assets/1-B0UfGA9s.jpg"
+                class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+
+              <!-- Overlay: Shows on hover, black transparent background with text -->
+              <div
+                class="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-center px-4"
+              >
+                <h3 class="text-xl font-semibold text-white mb-2">
+                  Coded, Designed
+                </h3>
+                <h2 class="text-2xl font-bold text-white mb-2">Eatsome</h2>
+                <p class="text-sm text-gray-200 mb-4">
+                  Restaurant browsing in ReactJS using Yelp API
+                </p>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="border border-white px-4 py-1 text-white hover:bg-white hover:text-black transition"
+                  >
+                    DEMO
+                  </a>
+                  <a
+                    href="#"
+                    class="border border-white px-4 py-1 text-white hover:bg-white hover:text-black transition"
+                  >
+                    MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Repeat for other projects -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/assets/2-BPqW2Csc.png"
+                class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 px-4 text-center"
+              >
+                <h3 class="text-xl font-semibold mb-1 animate-fadeInUp">
+                  UX/UI & Code
+                </h3>
+                <h2 class="text-2xl font-bold mb-2 animate-fadeInUp delay-100">
+                  Portfolio
+                </h2>
+                <p class="text-sm mb-4 animate-fadeInUp delay-200">
+                  Personal responsive portfolio using HTML, SCSS & JS
+                </p>
+                <div class="flex gap-4 animate-fadeInUp delay-300">
+                  <a
+                    href="#"
+                    class="border px-4 py-1 hover:bg-white hover:text-black transition"
+                  >
+                    DEMO
+                  </a>
+                  <a
+                    href="#"
+                    class="border px-4 py-1 hover:bg-white hover:text-black transition"
+                  >
+                    MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative group overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/assets/3-DDIPA_0B.png"
+                class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-500 px-4 text-center"
+              >
+                <h3 class="text-xl font-semibold mb-1 animate-fadeInUp">
+                  Frontend
+                </h3>
+                <h2 class="text-2xl font-bold mb-2 animate-fadeInUp delay-100">
+                  Dashboard
+                </h2>
+                <p class="text-sm mb-4 animate-fadeInUp delay-200">
+                  Admin panel design using Tailwind and Chart.js
+                </p>
+                <div class="flex gap-4 animate-fadeInUp delay-300">
+                  <a
+                    href="#"
+                    class="border px-4 py-1 hover:bg-white hover:text-black transition"
+                  >
+                    DEMO
+                  </a>
+                  <a
+                    href="#"
+                    class="border px-4 py-1 hover:bg-white hover:text-black transition"
+                  >
+                    MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add more cards similarly -->
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="page-radial-gradient text-black py-12 px-4">
+        <div class="max-w-xl mx-auto text-center flex flex-col gap-6">
+          <div class="flex justify-center">
+            <div
+              class="w-[250px] border-4 border-black py-3 px-8 uppercase tracking-[5px] text-center"
+            >
+              Contact me
+            </div>
+          </div>
+          <div class="py-8 flex flex-col gap-6">
+            <!-- Address -->
+            <div class="flex items-center justify-center gap-4 text-lg">
+              <i class="fa-solid fa-location-dot text-xl text-black"></i>
+              <span>123 Portfolio Street, Creative City, 456789</span>
+            </div>
+
+            <!-- Email -->
+            <div class="flex items-center justify-center gap-4 text-lg">
+              <i class="fa-solid fa-envelope text-xl text-black"></i>
+              <span>monika.nabhoya@gmail.com</span>
+            </div>
+
+            <!-- Phone -->
+            <div class="flex items-center justify-center gap-4 text-lg">
+              <i class="fa-solid fa-phone text-xl text-black"></i>
+              <span>+91 9173488506</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 py-8">
-      <div class="container mx-auto px-6 text-center">
-        <div class="flex justify-center space-x-6 mb-6">
-          <a href="#" class="hover:text-blue-400">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="#" class="hover:text-blue-400">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="#" class="hover:text-blue-400">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </div>
-        <p class="text-gray-400">
-          &copy; 2023 Tomasz Gajda. All rights reserved.
-        </p>
+    <footer class="bg-black text-white py-10 px-4 text-center">
+      <!-- Back to Top -->
+      <div class="mb-6">
+        <a
+          href="#"
+          class="inline-flex flex-col items-center justify-center text-white hover:text-gray-400 transition"
+        >
+          <i class="fa-solid fa-angle-up text-2xl mb-1 animate-bounce"></i>
+          <span class="uppercase tracking-widest text-sm font-semibold">
+            Back to Top
+          </span>
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-sm">
+        &copy;2025
+        <span class="font-bold">Monika Nabhoya</span>
+        All Rights Reserved.
       </div>
     </footer>
 
