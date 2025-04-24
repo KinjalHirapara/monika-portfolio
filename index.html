@@ -14,8 +14,8 @@
     />
     <link rel="icon" type="image/png" href="/MP.png" />
     <title>Vite + TS</title>
-    <script type="module" crossorigin src="/assets/index-CdAkBTbz.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CAlg8d5k.css">
+    <script type="module" crossorigin src="/assets/index-BFbGrZq4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Drma7RF1.css">
   </head>
   <body class="font-sans antialiased text-gray-800 bg-white scroll-smooth">
     <!-- Navigation -->
@@ -27,7 +27,7 @@
         <div
           class="container mx-auto px-8 py-4 flex justify-between items-center"
         >
-          <div class="text-2xl font-bold text-black">MP</div>
+          <div class="text-2xl font-bold text-white md:text-black">MP</div>
           <div
             class="hidden md:flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0 justify-center items-center"
             id="navbar-links"
@@ -63,8 +63,13 @@
 
     <main>
       <!-- Hero Section -->
-      <section id="home" class="flex w-full h-screen bg-[#D7D7D7]">
-        <div class="container px-6 text-center w-1/2 h-full">
+      <section
+        id="home"
+        class="flex flex-col w-full h-screen bg-[#e8e7e7] md:flex-row"
+      >
+        <div
+          class="order-2 md:order-none container px-6 text-center w-full md:w-1/2 md:h-full py-3 md:py-0"
+        >
           <div class="h-full w-full flex flex-col align-middle justify-center">
             <h1 class="text-5xl md:text-7xl font-bold mb-6">Monika Patel</h1>
             <p class="text-xl md:text-2xl text-black mb-8">
@@ -90,13 +95,13 @@
             </div>
           </div>
         </div>
-        <div class="w-1/2 h-full">
+        <div class="order-1 md:order-none w-full md:w-1/2 h-full">
           <div class="w-full h-full">
             <div
               class="skew-container relative bg-black w-full h-full flex items-center justify-center"
             >
               <img
-                class="absolute rounded-full w-96 h-96"
+                class="profile-img absolute rounded-full object-cover w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 landscape-w-48 landscape-h-48"
                 src="/assets/Kinjal_Profile-CBpkalp7.jpeg"
                 alt="Monika Profile"
               />
@@ -104,6 +109,7 @@
           </div>
         </div>
       </section>
+
       <section id="skills" class="w-full page-radial-gradient py-[80px]">
         <div class="flex justify-center">
           <div
@@ -205,7 +211,7 @@
           <div class="py-8">
             <div class="flex justify-center pt-[80px]">
               <div
-                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-[5rem] text-center text-black cursor-pointer"
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-[3rem] md:gap-[5rem] text-center text-black cursor-pointer"
               >
                 <!-- WordPress -->
                 <div
