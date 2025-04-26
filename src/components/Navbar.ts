@@ -4,11 +4,21 @@ export function setupNavbarBehavior(): void {
   window.addEventListener("scroll", () => {
     // Change navbar background on scroll
     if (window.scrollY > 50) {
-      navbar?.classList.add("bg-black/50", "shadow-md", "backdrop-blur-sm");
-      navbar?.classList.remove("bg-transparent");
+      navbar?.classList.add(
+        "bg-black/50",
+        "shadow-md",
+        "backdrop-blur-sm",
+        "md:text-white"
+      );
+      navbar?.classList.remove("bg-transparent", "md:text-black");
     } else {
-      navbar?.classList.remove("bg-black/50", "shadow-md", "backdrop-blur-sm");
-      navbar?.classList.add("bg-transparent");
+      navbar?.classList.remove(
+        "bg-black/50",
+        "shadow-md",
+        "backdrop-blur-sm",
+        "md:text-white"
+      );
+      navbar?.classList.add("bg-transparent", "md:text-black");
     }
 
     // // Active link highlight
